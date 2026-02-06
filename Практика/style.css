@@ -57,8 +57,7 @@ video {
 }
 html {
   font-size: 20px;
-  background: url(https://i.pinimg.com/1200x/b9/5b/a0/b95ba01638181472a6e214464a7f7667.jpg)
-    fixed;
+  background: url(./fon.jpg) fixed;
   background-size: 80vh;
 }
 p {
@@ -85,3 +84,4 @@ img {
   width: 50rem;
   height: auto;
 }
+
