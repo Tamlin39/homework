@@ -1,14 +1,12 @@
 body {
-  margin-left: 20%;
-  margin-right: 20%;
-  background-color: #ebcea8d7;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #ebcea7d7;
   margin-top: 10rem;
   margin-bottom: 10rem;
   color: #632e15;
-
+  size: 80%;
   background-position: 0;
-  padding: 1px 20px 1px;
-  border: 1px 20px 1px;
 }
 
 .mainh1 {
@@ -29,35 +27,28 @@ body {
   margin-bottom: 5%;
   display: flexbox;
   background: rgb(96, 100, 110);
-  border-radius: 47% 53% 41% 59% / 87% 8% 92% 13%;
+  border-radius: 5vh;
 
-  border-top: 3vh;
-  border-bottom: 3vh;
-  border-left: 3vh;
-  border-right: 3vh;
-  border-color: #7a7471;
-  border-style: solid;
-
+  border-top: 3px;
+  border-bottom: 3px;
+  border-left: 3px;
+  border-right: 3px;
   text-align: center;
   justify-content: center;
   align-items: center;
-
-  min-width: 150px;
-  max-width: 150px;
-  max-height: 500px;
-  min-height: 300px;
-  padding: 2vh 15vh 2vh;
+  width: 30vh;
+  padding: 1% 15% 1%;
 }
 .btn1 {
   display: flex;
-  padding-left: 65%;
-  padding-right: 65%;
-  padding-top: 45%;
-  padding-bottom: 45%;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   background: rgb(122, 117, 117);
   color: rgb(204, 204, 196);
   text-decoration: none;
-  border-radius: 88% 12% 58% 42% / 71% 62% 38% 29%;
+  border-radius: 2vh;
   margin: auto;
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -65,19 +56,14 @@ body {
   justify-content: center;
   align-items: center;
   position: static;
-  border-top: 2%;
-  border-bottom: 2%;
-  border-left: 2%;
-  border-right: 2%;
-  min-width: 60px;
-  max-width: 90px;
-
-  min-height: 50px;
-  max-height: 70px;
+  border-top: 2vh;
+  border-bottom: 2vh;
+  border-left: 2vh;
+  border-right: 2vh;
+  width: 10vh;
+  height: 5vh;
   box-sizing: border-box;
-  font-size: 16px;
-
-  font-family: sans-serif;
+  font-size: 3vh;
 }
 .fasttraveltxt {
   margin: auto;
@@ -85,30 +71,9 @@ body {
   margin-bottom: 1%;
   text-align: center;
   padding: 1%;
-  font-size: 32px;
+  font-size: 4vh;
   font-weight: 600;
 }
-
-.Miniral-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: 1px;
-  border-color: black;
-  margin: 10px auto;
-}
-
-td,
-th,
-caption {
-  border: 1px;
-  border-color: black;
-  border-style: solid;
-}
-
-caption {
-  border: none;
-}
-
 video {
   width: 100%;
   height: auto;
