@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Создание Тикета</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form>
+        <fieldset>
+          <h1>Ваши личные данные</h1>
+
+          <label for=""
+            ><h2>Ваше имя</h2>
+            <input
+              type="text"
+              placeholder="Имя"
+              required
+              inputmode="latin-name verbatim"
+            />
+          </label>
+          <label for=""
+            ><h2>Ваш возраст</h2>
+            <input
+              type="number"
+              placeholder="Возраст "
+              required
+              inputmode="numeric"
+              name="age"
+          /></label>
+          <label for="">
+            <h2>Ваш номер телефона</h2>
+            <input
+              type="tel"
+              placeholder="Телефон"
+              inputmode="tel"
+              required
+              name="phone"
+            />
+          </label>
+          <label for=""
+            ><h2>Ваша почта</h2>
+            <input
+              type="email"
+              placeholder="email"
+              inputmode="email"
+              required
+              name="email"
+            />
+          </label>
+          <label for=""
+            ><h2>Сообщение</h2>
+            <textarea
+              name="massage"
+              id="SMS"
+              inputmode="verbatim"
+              placeholder="Цель написания Тикета"
+              name="tikettxt"
+              required
+            ></textarea>
+            <label for="">
+              <input type="checkbox" required /> я принимаю
+              <a href="#rule">правила</a>
+            </label>
+          </label>
+          <button type="submit">Отправить</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+.form {
+  display: flex;
+  width: 30rem;
+  border-radius: 3vh;
+  background-color: rgb(166, 224, 224);
+  bottom: 10px 20px;
+
+  padding: 20px;
+  margin: 10rem auto;
+  border-width: 10px;
+  border: 10px outset rgb(211, 234, 255);
+}
+
+label {
+  display: block;
+}
+input {
+  outline: none;
+  border-radius: 1vh;
+  height: 2%;
+  width: auto;
+  margin-bottom: 2rem;
+}
+textarea {
+  width: 22rem;
+  resize: vertical;
+  min-height: 2rem;
+  outline: none;
+  border-radius: 1vh;
+}
+
+form:focus {
+  outline: none;
+}
+fieldset {
+  border: none;
+  margin: 0 auto;
+}
+html {
+  font-family: sans-serif;
+}
+h2 {
+  font-weight: 400;
+}
+button {
+  padding: 10px;
+  margin: 1rem auto;
+  font-size: medium;
+
+  background-color: aquamarine;
+  border-color: aqua;
+  border-radius: 1vh;
+}
