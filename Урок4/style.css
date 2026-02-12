@@ -27,6 +27,7 @@ textarea {
   min-height: 2rem;
   outline: none;
   border-radius: 1vh;
+  max-height: 600px;
 }
 
 form:focus {
