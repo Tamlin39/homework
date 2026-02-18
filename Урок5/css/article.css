@@ -118,8 +118,21 @@ p {
   width: 100%;
 }
 
-.article-video {
+.obertka {
   margin-bottom: 40px;
+  position: relative;
+}
+
+.playbtn {
+  display: flex;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
 }
 
 .article-list {
