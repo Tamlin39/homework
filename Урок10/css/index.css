@@ -80,7 +80,7 @@ strong {
   padding: 22px;
   background-color: hwb(0 100% 0% / 0.9);
   color: #2c332f;
-  border: 2px solid hsl(150, 2%, 33%);
+  border: 1px solid hsl(150, 2%, 33%);
   text-align: center;
   font-family: Ubuntu;
   font-weight: normal;
@@ -133,3 +133,4 @@ strong {
   padding-left: 20px;
   color: #3596ed;
 }
+
