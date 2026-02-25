@@ -1,4 +1,6 @@
-
+main {
+  margin-top: 80px;
+}
 
 section {
   margin-bottom: 140px;
@@ -17,13 +19,13 @@ section {
   background: url(../images/decor-large-icon.svg) repeat-x;
 }
 
-.herocontainer {
+.hero-container {
   display: flex;
   flex-direction: row;
   gap: 28px;
   max-height: 513px;
 }
-.heromain {
+.hero-main {
   display: flex;
   flex-direction: column;
   gap: 140px;
@@ -38,7 +40,7 @@ h2 {
   text-transform: uppercase;
   color: #2c332f;
 }
-.herotxt p {
+.hero-txt p {
   margin-top: 40px;
   font-family: Ubuntu;
   font-weight: normal;
@@ -47,14 +49,14 @@ strong {
   color: #3596ed;
 }
 
-.herobuttontext {
+.hero-button-text {
   font-family: Ubuntu;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 15px;
 }
 
-.herobutton {
+.hero-button {
   display: flex;
   justify-items: center;
   justify-content: center;
@@ -65,7 +67,7 @@ strong {
   background-color: #3596ed;
 }
 
-.heroimg {
+.hero-img {
   display: flex;
   flex-direction: row;
   max-width: 43.75rem;
@@ -73,7 +75,7 @@ strong {
   position: relative;
 }
 
-.herochoose {
+.hero-choose {
   position: absolute;
   padding: 22px;
   background-color: hwb(0 100% 0% / 0.9);
@@ -87,13 +89,17 @@ strong {
   top: 40px;
 }
 
-.lastnews {
+.last-news {
   position: relative;
   width: 1220px;
   justify-self: center;
 }
 
-.containerlastnews {
+.h2-last-news {
+  font-size: 48px;
+}
+
+.container-last-news {
   display: flex;
   flex-direction: row;
   justify-items: flex-start;
@@ -112,19 +118,18 @@ strong {
   transform: translateX(-12px);
 }
 
-.cardimg {
+.card-img {
   width: auto;
   height: 203px;
 }
 
-.cardtxt {
+.card-txt {
   margin-top: 20px;
   margin-bottom: 12px;
   padding-left: 20px;
 }
 
-.truehref {
+.true-href {
   padding-left: 20px;
   color: #3596ed;
 }
-

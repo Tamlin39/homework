@@ -63,7 +63,7 @@ main {
   padding: 0;
   flex-direction: column;
   align-items: flex-end;
-  gap:8px;
+  gap: 8px;
 }
 
 .podpis {
@@ -84,8 +84,6 @@ main {
   color: #2c332f;
   max-width: 155px;
   max-height: 21px;
-  font-family: Ubuntu, sans-serif;
-  font-wight: normal;
 }
 
 h1,
