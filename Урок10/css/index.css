@@ -1,0 +1,131 @@
+main {
+  margin-top: 80px;
+}
+
+section {
+  margin-bottom: 140px;
+}
+
+.hero {
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 400vh;
+  transform: translateX(-150vh) translateY(-154px);
+  height: 48px;
+  background: url(../images/decor-large-icon.svg) repeat-x;
+}
+
+.herocontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  max-height: 513px;
+}
+.heromain {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  max-width: 492px;
+}
+
+h1,
+h2 {
+  font-family: Oswald;
+  font-size: 62px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2c332f;
+}
+.herotxt p {
+  margin-top: 40px;
+  font-family: Ubuntu;
+  font-weight: normal;
+}
+strong {
+  color: #3596ed;
+}
+
+.herobuttontext {
+  font-family: Ubuntu;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.herobutton {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 16.875rem;
+  height: 57px;
+  color: white;
+  background-color: #3596ed;
+}
+
+.heroimg {
+  display: flex;
+  flex-direction: row;
+  max-width: 43.75rem;
+  max-height: 32.0625rem;
+  position: relative;
+}
+
+.herochoose {
+  position: absolute;
+  padding: 22px;
+  background-color: hwb(0 100% 0% / 0.9);
+  color: #2c332f;
+  border: 2px solid hsl(150, 2%, 33%);
+  text-align: center;
+  font-family: Ubuntu;
+  font-weight: normal;
+
+  right: 275px;
+  top: 40px;
+}
+
+.lastnews {
+  position: relative;
+  width: 1220px;
+  justify-self: center;
+}
+
+.containerlastnews {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  gap: 28px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 284px;
+  height: 342px;
+  margin-top: 40px;
+  justify-items: left;
+  justify-content: left;
+  border: 1px solid #d3cbd9;
+  transform: translateX(-12px);
+}
+
+.cardimg {
+  width: auto;
+  height: 203px;
+}
+
+.cardtxt {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  padding-left: 20px;
+}
+
+.truehref {
+  padding-left: 20px;
+  color: #3596ed;
+}
