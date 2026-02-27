@@ -9,14 +9,15 @@ section {
 .hero {
   position: relative;
 }
-.hero::after {
+.body-index::before {
   content: "";
-  position: fixed;
+  position: absolute;
   z-index: -1;
-  width: 400vh;
-  transform: translateX(-150vh) translateY(-154px);
+  width: 100%;
+  transform: translateY(616px);
   height: 48px;
   background: url(../images/decor-large-icon.svg) repeat-x;
+  overflow: hidden;
 }
 
 .hero-container {
@@ -128,10 +129,3 @@ strong {
   margin-bottom: 12px;
   padding-left: 20px;
 }
-
-.true-href {
-  padding-left: 20px;
-  color: #3596ed;
-}
-
-
