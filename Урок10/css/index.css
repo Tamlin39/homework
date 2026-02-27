@@ -11,7 +11,7 @@ section {
 }
 .hero::after {
   content: "";
-  position: absolute;
+  position: fixed;
   z-index: -1;
   width: 400vh;
   transform: translateX(-150vh) translateY(-154px);
@@ -133,4 +133,5 @@ strong {
   padding-left: 20px;
   color: #3596ed;
 }
+
 
