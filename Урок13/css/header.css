@@ -1,0 +1,8 @@
+.header {
+  display: grid;
+  background-color: brown;
+  width: auto;
+  min-height: 150px;
+  max-height: 200px;
+  margin-bottom: 2px;
+}
