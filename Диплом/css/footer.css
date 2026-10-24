@@ -1,0 +1,75 @@
+footer {
+  margin-top: clamp(16px, 1.428571vw, 20px);
+  padding-top: clamp(28px, 3.214286vw, 45px);
+  background-color: var(--element-bg-color);
+  border-top: 1px;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-color: var(--accent-color);
+}
+
+.footer__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: clamp(16px, 2vw, 28px);
+  height: 191px;
+  width: 92.43vw;
+  margin: 0 auto;
+}
+
+.footer__advertisement {
+  width: clamp(200px, 28.142857vw, 394px);
+  max-width: 100%;
+  padding-top: clamp(8px, 0.714286vw, 10px);
+}
+
+.footer__advertisement > p {
+  padding-top: clamp(12px, 1.285714vw, 18px);
+  font-size: clamp(12px, 1.142857vw, 16px);
+}
+
+.footer__allproduct .footer__compony .footer__support .footer__folow {
+  width: clamp(120px, 14.071429vw, 197px);
+}
+
+.footer__line {
+  border: none;
+  border-top: 1px solid var(--accent-color);
+  margin: clamp(32px, 5.714286vw, 80px) 0;
+}
+
+.footer__ownership {
+  width: 93%;
+  margin: 0 auto clamp(2px, 0.285714vw, 4px);
+}
+
+footer dt {
+  font-family: "Readex Pro";
+  font-size: clamp(16px, 1.571429vw, 22px);
+  padding-bottom: clamp(12px, 1.428571vw, 20px);
+}
+
+footer dd {
+  font-family: "Inter";
+  font-size: clamp(13px, 1.214286vw, 17px);
+  padding-bottom: clamp(10px, 1.071429vw, 15px);
+}
+
+@media (max-width: 768px) {
+  .footer__main {
+    width: calc(100% - 32px);
+    height: auto;
+    min-height: 160px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .footer__advertisement {
+    flex: 1 1 240px;
+  }
+}

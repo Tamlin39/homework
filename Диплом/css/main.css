@@ -1,0 +1,149 @@
+html {
+  --defolt-color: rgb(0, 0, 0);
+  --accent-color: rgba(220, 229, 226, 1);
+  --discription-color: rgba(75, 75, 75, 1);
+  --big-paragraph: 16px;
+  --border-color: rgb(0, 0, 0);
+  --button-bg: rgba(1, 1, 1, 0);
+  --button-text-size: 18px;
+  --element-bg-color: rgba(248, 249, 250, 1);
+  --search-block-bg-color: rgba(248, 249, 250, 1);
+  --search-block-border-color: rgba(197, 197, 197, 1);
+  font-family: "Times New Roman", Times, serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.conteiner {
+  display: inline;
+  position: relative;
+}
+
+.colum {
+  display: block;
+  flex-direction: column;
+}
+
+a:link,
+a:visited {
+  color: var(--defolt-color);
+  text-decoration-line: none;
+}
+
+a {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+a:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style: none;
+}
+
+details > summary:first-of-type {
+  list-style: none;
+}
+
+details > summary::after {
+  content: url(../svg/vector.svg);
+  padding-left: 4px;
+}
+
+h1 {
+  font-size: clamp(30px, 3.14vw, 58px);
+  font-weight: 400;
+  margin: 0;
+  font-family: "Readex Pro";
+}
+
+h2 {
+  margin-bottom: clamp(8px, 0.642857vw, 9px);
+  font-family: "Readex Pro";
+  font-size: clamp(26px, 2.8vw, 42px);
+}
+
+h3 {
+  font-size: clamp(24px, 2.4vw, 33.6px);
+  margin: 0;
+  font-family: "Readex Pro";
+}
+
+p {
+  margin: 0;
+  font-family: "Inter";
+  font-size: clamp(14px, 2vw, 28px);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-wrap {
+  min-width: 0;
+  min-height: 0;
+}
+
+.explore-button {
+  margin-top: clamp(20px, 2.142857vw, 30px);
+  background-color: var(--button-bg);
+  border-radius: 200px;
+  border-color: var(--border-color);
+  width: clamp(150px, 13.571429vw, 190px);
+  height: clamp(44px, 3.571429vw, 50px);
+  border-width: 1px;
+  font-size: clamp(16px, 1.285714vw, 18px);
+}
+
+.text-gap {
+  margin-bottom: clamp(24px, 4vw, 56px);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+small {
+  font-size: clamp(12px, 1.071429vw, 15px);
+  font-family: "Inter";
+}
+
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-family: "Readex Pro";
+}
+
+dd {
+  font-family: "Inter";
+}

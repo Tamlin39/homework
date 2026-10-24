@@ -1,0 +1,11 @@
+const buttons = [
+  "iPhone",
+  "Charger",
+  "Gift",
+  "Google Pixel 3",
+  "Keyboard",
+  "13 Pro Max",
+  "iPhone 12",
+  "Laptop",
+  "Mobile",
+];
